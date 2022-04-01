@@ -12,6 +12,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String test() {
-        return "Test ver2";
+        return "Test ver3";
     }
 }
