@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/")
     public String helloWorld() {
-        return "Test sonarqube 1";
+        return "Test sonarqube 2";
     }
 
     @GetMapping("/test")
