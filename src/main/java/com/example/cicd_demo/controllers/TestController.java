@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String test() {
-        return "Test dev 10";
+        return "Test dev 11";
     }
 
     @GetMapping("/annv")
