@@ -17,6 +17,6 @@ public class TestController {
 
     @GetMapping("/annv")
     public String annv() {
-        return "Test annv 2";
+        return "Test annv merge";
     }
 }
