@@ -14,4 +14,9 @@ public class TestController {
     public String test() {
         return "Test dev 10";
     }
+
+    @GetMapping("/annv")
+    public String annv() {
+        return "Test annv 1";
+    }
 }
